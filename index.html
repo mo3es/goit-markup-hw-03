@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="goit learning project 1" />
+    <meta
+      name="keywords"
+      content="webstudio, Web Studio, landpage create, create site, landpage creation, creation site, order landpage, order site, web studio Ukraine"
+    />
+    <meta name="author" content="Mykhailo" />
     <title>Web Studio</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="images/favicons/favicon-16x16.png"
+      type="image/svg+xml"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -15,7 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Robotowght@400,500,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Robotowght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -23,44 +34,48 @@
   <body>
     <!-- #region header-->
     <header class="page-header">
-      <nav class="header-nav">
-        <a href="./index.html" class="logo"
-          >Web<span class="logo-header-part">Studio</span></a
-        >
-        <ul class="header-nav-list">
-          <li class="header-nav-item">
-            <a href="./index.html" class="header-nav-link">Studio</a>
-          </li>
-          <li class="header-nav-item">
-            <a href="" class="header-nav-link">Portfolio</a>
-          </li>
-          <li class="header-nav-item">
-            <a href="" class="header-nav-link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo"
+            >Web<span class="logo-header-part">Studio</span></a
+          >
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a href="./index.html" class="header-nav-link">Studio</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">Portfolio</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-      <address class="header-address">
-        <ul>
-          <li class="header-address-item">
-            <a href="mailto:info@devstudio.com" class="header-address-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-address-item">
-            <a href="tel:+110001111111" class="header-address-link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="header-address">
+          <ul>
+            <li class="header-address-item">
+              <a href="mailto:info@devstudio.com" class="header-address-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-address-item">
+              <a href="tel:+110001111111" class="header-address-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!-- #endregion header-->
     <main class="main-page">
       <!-- #region Hero -->
       <section class="hero">
-        <h1 class="hero-header">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-button">Order Service</button>
+        <div class="container">
+          <h1 class="hero-header">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-button">Order Service</button>
+        </div>
       </section>
       <!-- #endregion Hero-->
       <!-- #region Benefits-->
