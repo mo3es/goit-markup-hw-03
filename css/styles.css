@@ -41,7 +41,6 @@ p {
 a {
   text-decoration: none;
   color: rgb(var(--secondary-text-color));
-  display: inline-block;
 }
 
 ul,
@@ -317,6 +316,7 @@ h3 {
 }
 
 .footer-logo {
+  display: inline-block; 
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 18px;
@@ -324,13 +324,12 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: rgb(var(--cta-active-color));
-  display: inline-block; 
   margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
-  color: rgb(var(--light-background-color));
   display: inline-block;
+  color: rgb(var(--light-background-color));
 }
 
 .footer-text {
