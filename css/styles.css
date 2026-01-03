@@ -104,6 +104,9 @@ h3 {
   color: rgb(var(--secondary-text-color));
 }
 
+.section {
+  padding: 120px 0;
+}
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -186,7 +189,6 @@ h3 {
 
 .hero-section {
   background-color: rgb(var(--secondary-background-color));
-  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -195,8 +197,7 @@ h3 {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding-top: 188px;
-  margin: 0 auto 48px;
+  margin: 68px auto 48px;
   text-align: center;
   color: rgb(var(--light-text-color));
 }
@@ -229,8 +230,6 @@ h3 {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  margin-top: 120px;
-  margin-bottom: 120px;
 }
 .benefits-item-title {
   margin-bottom: 8px;
@@ -243,7 +242,6 @@ h3 {
 }
 
 .team-title {
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -251,7 +249,6 @@ h3 {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-list-item {
@@ -267,7 +264,28 @@ h3 {
   padding-bottom: 32px;
 }
 /*=========== END OUR TEAM SECTION =============*/
+.portfolio-title {
+  margin-bottom: 72px;
+}
 
+.portfolio-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-item-title {
+  padding: 32px 0 8px 0;
+  border-left: 1px solid rgb(var(--accent-color));
+  border-right: 1px solid rgb(var(--accent-color));
+}
+
+.portfolio-item-text {
+  padding-bottom: 32px;
+  border: 1px solid rgb(var(--accent-color));
+  border-top: none;
+}
 /*=========== OUR PORTFOLIO SECTION =============*/
 /*========= END OUR PORTFOLIO SECTION ===========*/
 
@@ -276,6 +294,21 @@ h3 {
 /*=========== FOOTER =============*/
 .page-footer {
   background-color: rgb(var(--secondary-background-color));
+}
+
+.footer-container {
+  display: flex;
+  padding: 100px 0;
+} 
+
+.footer-logo-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 264px;
+}
+
+.footer-logo {
+  margin-bottom: 16px;
 }
 
 .footer-logo .logo-part,
