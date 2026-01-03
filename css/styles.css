@@ -131,6 +131,7 @@ h3 {
 }
 
 .main-logo {
+  display: inline-block;
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 18px;
@@ -316,15 +317,17 @@ h3 {
 }
 
 .footer-logo {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
   color: rgb(var(--light-background-color));
+  display: inline-block;
 }
 
 .footer-text {
+  display: inline-block;
   max-width: 264px;
   color: rgb(var(--light-background-color));
 }
