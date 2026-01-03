@@ -305,8 +305,6 @@ h3 {
 /*============ END MAIN ==================*/
 
 /*=========== FOOTER =============*/
-
-
 .page-footer {
   background-color: rgb(var(--secondary-background-color));
   padding: 100px 0;
@@ -317,20 +315,17 @@ h3 {
   flex-direction: column;
 }
 
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
-
-.footer-logo .logo-part,
-.footer-text {
+.footer-logo .logo-part {
   color: rgb(var(--light-background-color));
 }
 
 .footer-text {
   max-width: 264px;
+  color: rgb(var(--light-background-color));
 }
-
-.footer-logo {
-  margin-bottom: 16px;
-  display: inline-block;
-} 
-
 /*========= END FOOTER ===========*/
