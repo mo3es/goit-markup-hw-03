@@ -58,9 +58,9 @@ button {
 }
 
 img {
-  display: block; /* Прибирає нижній зазор */
-  max-width: 100%; /* Картинка не стає ширшою за батьківський блок */
-  height: auto; /* Зберігає пропорції при зміні ширини */
+  display: block; 
+  max-width: 100%; 
+  height: auto;
 }
 
 body {
@@ -322,7 +322,6 @@ h3 {
 .footer-logo .logo-part,
 .footer-text {
   color: rgb(var(--light-background-color));
-  display: inline-block;
 }
 
 .footer-text {
@@ -331,8 +330,7 @@ h3 {
 
 .footer-logo {
   margin-bottom: 16px;
-}
-.footer-container>a{
   display: inline-block;
-}
+} 
+
 /*========= END FOOTER ===========*/
