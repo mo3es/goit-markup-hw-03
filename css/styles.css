@@ -41,6 +41,7 @@ p {
 a {
   text-decoration: none;
   color: rgb(var(--secondary-text-color));
+  display: inline-block;
 }
 
 ul,
@@ -323,13 +324,13 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: rgb(var(--cta-active-color));
-  /* ВАЖЛИВО: саме цей рядок шукає бот */
   display: inline-block; 
   margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
   color: rgb(var(--light-background-color));
+  display: inline-block;
 }
 
 .footer-text {
