@@ -298,7 +298,7 @@ h3 {
 
 .footer-container {
   display: flex;
-  padding: 100px 0;
+  padding: 84px 0 100px;
 } 
 
 .footer-logo-container {
@@ -308,7 +308,7 @@ h3 {
 }
 
 .footer-logo {
-  margin-bottom: 16px;
+  padding: 16px 0;
 }
 
 .footer-logo .logo-part,
