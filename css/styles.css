@@ -1,0 +1,163 @@
+/* ============= VARIABLES ============= */
+:root {
+  --cta-active-color: 77 90 229; /*iris*/
+  --hover-pressed-color: 64 75 191; /*ocean*/
+  --primary-text-color: 67 68 85; /*slate*/
+  --secondary-text-color: 46 47 66; /*navy blue*/
+  --light-text-color: 255 255 255;
+  /*white*/
+  --success-color: 49 208 170; /*green*/
+  --helper-text-color: 142 143 153; /*light-slate*/
+  --accent-color: 231 233 252; /*cornflower*/
+  --primary-background-color: 255 255 255; /*white*/
+  --secondary-background-color: 46 47 66; /*navy blue*/
+  --modal-background-color: 252 252 252; /*dairy*/
+  --modal-secondary-background-color: 46 47 66 /0.4; /*navy blue modal*/
+  --hero-image-background-color: 46 47 66 /0.7; /*grey*/
+  --light-background-color: 244 244 253; /*cloud*/
+  --primary-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+}
+
+/* ============= END VARIABLES ============= */
+
+/* ============= COMMON STYLES ============= */
+a {
+  text-decoration: none;
+  color: rgb(var(--secondary-text-color));
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: rgb(var(--primary-background-color));
+  color: rgb(var(--primary-text-color));
+  font-family: var(--primary-font-family);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: rgb(var(--secondary-text-color));
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: rgb(var(--secondary-text-color));
+}
+/* ============= END COMMON STYLES ============= */
+
+/* ============= HEADER ============= */
+.main-logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgb(var(--cta-active-color));
+}
+
+.header-logo .logo-part {
+  color: rgb(var(--secondary-text-color));
+}
+
+.nav-menu-link {
+  font-weight: 500;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-menu-link {
+  color: rgb(var(--primary-text-color));
+}
+
+.nav-menu-link:hover,
+.contacts-menu-link:hover,
+.nav-menu-link:focus,
+.contacts-menu-link:focus {
+  color: rgb(var(--hover-pressed-color));
+}
+
+/* ============= END HEADER ============= */
+
+/*============== MAIN ====================*/
+
+/*============= HERO SECTION =============*/
+
+.hero-section {
+  background-color: rgb(var(--secondary-background-color));
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgb(var(--light-text-color));
+}
+
+.hero-button {
+  background-color: rgb(var(--cta-active-color));
+  color: rgb(var(--light-text-color));
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: rgb(var(--hover-pressed-color));
+}
+/*=========== END HERO SECTION =============*/
+
+/*=========== BENEFITS SECTION =============*/
+/*=========== END BENEFITS SECTION =============*/
+
+/*=========== OUR TEAM SECTION =============*/
+.team-section {
+  background-color: rgb(var(--light-background-color));
+}
+
+.team-list-item {
+  background-color: rgb(var(--primary-background-color));
+  text-align: center;
+}
+/*=========== END OUR TEAM SECTION =============*/
+
+/*=========== OUR PORTFOLIO SECTION =============*/
+/*========= END OUR PORTFOLIO SECTION ===========*/
+
+/*============ END MAIN ==================*/
+
+/*=========== FOOTER =============*/
+.page-footer {
+  background-color: rgb(var(--secondary-background-color));
+}
+
+.footer-logo .logo-part,
+.footer-text {
+  color: rgb(var(--light-background-color));
+}
+
+/*========= END FOOTER ===========*/
