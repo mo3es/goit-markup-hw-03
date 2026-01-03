@@ -322,6 +322,7 @@ h3 {
 .footer-logo .logo-part,
 .footer-text {
   color: rgb(var(--light-background-color));
+  display: inline-block;
 }
 
 .footer-text {
