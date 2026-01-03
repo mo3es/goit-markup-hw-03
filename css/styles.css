@@ -41,7 +41,6 @@ p {
 a {
   text-decoration: none;
   color: rgb(var(--secondary-text-color));
-  display: inline-block;
 }
 
 ul,
@@ -132,7 +131,6 @@ h3 {
 }
 
 .main-logo {
-  display: inline-block;
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 18px;
@@ -324,7 +322,6 @@ h3 {
 .footer-logo .logo-part,
 .footer-text {
   color: rgb(var(--light-background-color));
-  display: inline-block;
 }
 
 .footer-text {
@@ -332,7 +329,9 @@ h3 {
 }
 
 .footer-logo {
-  display: inline-block;
   margin-bottom: 16px;
+}
+.footer-container>a{
+  display: inline-block;
 }
 /*========= END FOOTER ===========*/
