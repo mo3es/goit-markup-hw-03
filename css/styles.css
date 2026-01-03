@@ -305,10 +305,7 @@ h3 {
 /*============ END MAIN ==================*/
 
 /*=========== FOOTER =============*/
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-}
+
 
 .page-footer {
   background-color: rgb(var(--secondary-background-color));
@@ -329,5 +326,10 @@ h3 {
 
 .footer-text {
   max-width: 264px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 /*========= END FOOTER ===========*/
