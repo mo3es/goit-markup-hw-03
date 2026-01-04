@@ -58,8 +58,8 @@ button {
 }
 
 img {
-  display: block; 
-  max-width: 100%; 
+  display: block;
+  max-width: 100%;
   height: auto;
 }
 
@@ -310,25 +310,12 @@ h3 {
   padding: 100px 0;
 }
 
-.footer-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer-logo {
-  display: inline-block; 
-  font-family: var(--secondary-font-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: rgb(var(--cta-active-color));
+  display: inline-block;
   margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
-  display: inline-block;
   color: rgb(var(--light-background-color));
 }
 
